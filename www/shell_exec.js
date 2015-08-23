@@ -1,7 +1,8 @@
-var ShellExec = function() {};
+var ShellExec = function () {
+};
 
-ShellExec.prototype.say = function(success, fail) {
-    cordova.exec(success, fail, "ShellExecPlugin","say", []);
+ShellExec.prototype.exec = function (perintah, success, fail) {
+    cordova.exec(success, fail, "ShellExecPlugin", perintah, []);
 };
 
 var ShellExec = new ShellExec();
