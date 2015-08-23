@@ -39,4 +39,3 @@ public class ShellExecPlugin extends CordovaPlugin {
         return response;
     }
 }
-}
