@@ -12,7 +12,7 @@ public class ShellExecPlugin extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        callbackContext.success("Hello World!");
+        callbackContext.success(action);
         return true;
     }
 }
